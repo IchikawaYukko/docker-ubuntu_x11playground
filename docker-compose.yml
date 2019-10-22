@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  ubuntux:
+    image: ichikawayukko/ubuntu_x11playground
+    container_name: ubuntux
+    ports:
+     - "8022:22"
+    environment:
+     - ROOT_PASSWORD=********
