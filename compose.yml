@@ -1,6 +1,8 @@
 services:
   ubuntux:
     image: ichikawayukko/ubuntu_x11playground
+    build:
+      context: .
     container_name: ubuntux
     ports:
      - "8022:22"
